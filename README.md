@@ -22,6 +22,7 @@ A modern, gamified web application built with React for creating flashcards, tak
 
 ## 📦 Installation
 
+<<<<<<< HEAD
 \`\`\`bash
 # Clone repository
 git clone <your-repo-url>
@@ -128,3 +129,8 @@ MIT License - Feel free to use this project for learning purposes
 - Document the component hierarchy
 - Add flowcharts for quiz logic
 - Include ER diagrams if adding backend later
+=======
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Deployment link : https://levelupminor.netlify.app/
+>>>>>>> a812062d3c7929ea160ef7dfa2e7137f54920ec8
