@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";        
 import Dashboard from "./pages/Dashboard";
 import FlashcardPage from "./pages/FlashcardPage";  
-import Quiz from "./components/quiz";
+import Quiz from "./components/Quiz";
 import GrowZonePage from "./pages/GrowZonePage";
 import LogInPage from "./pages/LogInPage";
 import SignUpPage from "./pages/SignUpPage";
