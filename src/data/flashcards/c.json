@@ -1,0 +1,98 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is C language?",
+      "answer": "C is a general-purpose, procedural programming language developed by Dennis Ritchie at Bell Labs in 1972."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "What symbol is used to end a statement in C?",
+      "answer": "A semicolon (;) is used to end a statement in C."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What does printf() function do?",
+      "answer": "It prints text or variables to the output screen."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What is the use of #include?",
+      "answer": "It includes header files in a C program before compilation."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Which keyword is used to declare a variable?",
+      "answer": "Keywords like int, char, float, and double are used to declare variables."
+    }
+  ],
+  "medium": [
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Explain the difference between call by value and call by reference.",
+      "answer": "Call by value passes a copy of the variable, while call by reference passes the variable’s address."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "What is recursion in C?",
+      "answer": "Recursion is a function calling itself until a base condition is met."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "What is the difference between global and local variables?",
+      "answer": "Global variables are accessible throughout the program, while local variables are accessible only within a function."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "What is a pointer?",
+      "answer": "A pointer is a variable that stores the memory address of another variable."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "What are storage classes in C?",
+      "answer": "auto, static, extern, and register are storage classes that define variable scope and lifetime."
+    }
+  ],
+  "hard": [
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "What is a dangling pointer?",
+      "answer": "A dangling pointer points to a memory location that has been freed or deleted."
+    },
+    {
+      "id": 12,
+      "difficulty": "hard",
+      "question": "Explain dynamic memory allocation functions.",
+      "answer": "malloc(), calloc(), realloc(), and free() are used for dynamic memory management."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "What is a segmentation fault?",
+      "answer": "It occurs when a program tries to access restricted or invalid memory."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "question": "What are function pointers?",
+      "answer": "They are pointers that point to functions and can be used to call them dynamically."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "question": "What are preprocessor directives?",
+      "answer": "They are commands that instruct the compiler to preprocess the source code before compilation, such as #define, #include."
+    }
+  ]
+}

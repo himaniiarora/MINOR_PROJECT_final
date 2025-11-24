@@ -1,0 +1,23 @@
+{
+      "easy": [
+        { "q": "Declare variable?", "opt": ["var x", "variable x", "int x", "x=val"], "ans": 0 },
+        { "q": "Comment?", "opt": ["#", "//", "<!--", "/*"], "ans": 1 },
+        { "q": "Call function?", "opt": ["call f()", "f()", "call function", "exec()"], "ans": 1 },
+        { "q": "NaN?", "opt": ["Not a Number", "Null None", "New Null", "None Num"], "ans": 0 },
+        { "q": "Equality?", "opt": ["=", "==", "===", "equals"], "ans": 1 }
+      ],
+      "medium": [
+        { "q": "Closure?", "opt": ["Func in func", "Loop", "Object", "Array"], "ans": 0 },
+        { "q": "let vs var?", "opt": ["Same", "Scope diff", "Type diff", "Speed"], "ans": 1 },
+        { "q": "Promise?", "opt": ["Async op", "Loop", "Variable", "Function"], "ans": 0 },
+        { "q": "Event bubbling?", "opt": ["Prop upward", "Create", "Delete", "Block"], "ans": 0 },
+        { "q": "Hoisting?", "opt": ["Decl moved up", "Exec", "Create", "Sort"], "ans": 0 }
+      ],
+      "hard": [
+        { "q": "Event loop?", "opt": ["Async exec", "Loop", "Handler", "Callback"], "ans": 0 },
+        { "q": "Prototypal inherit?", "opt": ["Obj inherit", "Class", "Func", "Var"], "ans": 0 },
+        { "q": "Currying?", "opt": ["Partial args", "Loop opt", "Obj create", "Array"], "ans": 0 },
+        { "q": "call vs apply?", "opt": ["Arg passing", "Same", "Speed", "Scope"], "ans": 0 },
+        { "q": "WeakMap?", "opt": ["GC collect", "Small", "Fast", "Simple"], "ans": 0 }
+      ]
+    }

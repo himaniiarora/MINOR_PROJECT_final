@@ -1,0 +1,23 @@
+{
+      "easy": [
+        { "q": "JSX?", "opt": ["JavaScript XML", "Java Syntax", "JSON XML", "JS Ext"], "ans": 0 },
+        { "q": "Create component?", "opt": ["function C()", "class C", "Both", "component()"], "ans": 2 },
+        { "q": "Props?", "opt": ["Properties", "State", "Event", "CSS"], "ans": 0 },
+        { "q": "State?", "opt": ["Component data", "CSS", "HTML", "Event"], "ans": 0 },
+        { "q": "State hook?", "opt": ["useEffect", "useState", "useContext", "useMemo"], "ans": 1 }
+      ],
+      "medium": [
+        { "q": "useEffect?", "opt": ["Side effects", "State", "Routing", "Styling"], "ans": 0 },
+        { "q": "Virtual DOM?", "opt": ["Memory DOM", "Real DOM", "Server", "Browser"], "ans": 0 },
+        { "q": "Lift state up?", "opt": ["Move parent", "Delete", "Create", "Copy"], "ans": 0 },
+        { "q": "Context API?", "opt": ["Global state", "Local store", "API", "Routing"], "ans": 0 },
+        { "q": "React.memo?", "opt": ["Memoization", "Hook", "Component", "Function"], "ans": 0 }
+      ],
+      "hard": [
+        { "q": "Reconciliation?", "opt": ["Diffing algo", "State update", "Render", "Event"], "ans": 0 },
+        { "q": "useCallback?", "opt": ["Memoize func", "API", "State", "Routing"], "ans": 0 },
+        { "q": "React Fiber?", "opt": ["Reconcile engine", "Component", "Hook", "CSS"], "ans": 0 },
+        { "q": "Code splitting?", "opt": ["Load on demand", "Split comp", "Split state", "Split props"], "ans": 0 },
+        { "q": "useReducer?", "opt": ["Complex state", "API", "Effect", "Ref"], "ans": 0 }
+      ]
+    }

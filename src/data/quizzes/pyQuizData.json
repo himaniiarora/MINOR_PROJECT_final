@@ -1,0 +1,23 @@
+{
+      "easy": [
+        { "q": "Print in Python?", "opt": ["echo", "printf", "print()", "cout"], "ans": 2 },
+        { "q": "Python extension?", "opt": [".py", ".python", ".pt", ".p"], "ans": 0 },
+        { "q": "Create variable?", "opt": ["int x=5", "var x=5", "x=5", "let x=5"], "ans": 2 },
+        { "q": "Comment?", "opt": ["//", "#", "/*", "--"], "ans": 1 },
+        { "q": "Function keyword?", "opt": ["func", "function", "def", "fn"], "ans": 2 }
+      ],
+      "medium": [
+        { "q": "List comprehension?", "opt": ["Loop", "Concise list", "Method", "Import"], "ans": 1 },
+        { "q": "List vs tuple?", "opt": ["Same", "Tuple immutable", "List immut", "Tuple fast"], "ans": 1 },
+        { "q": "args in function?", "opt": ["Pointer", "Var args", "Multi", "Power"], "ans": 1 },
+        { "q": "Decorator?", "opt": ["Func modifier", "Class mod", "Var mod", "Loop mod"], "ans": 0 },
+        { "q": "init method?", "opt": ["Destructor", "Constructor", "Static", "Class"], "ans": 1 }
+      ],
+      "hard": [
+        { "q": "GIL?", "opt": ["Global Interpreter Lock", "General Interface", "Garbage Lock", "Global Import"], "ans": 0 },
+        { "q": "Metaclass?", "opt": ["Class of class", "Parent", "Abstract", "Static"], "ans": 0 },
+        { "q": "Monkey patch?", "opt": ["Dynamic mod", "Error handle", "Test", "Debug"], "ans": 0 },
+        { "q": "asyncio?", "opt": ["Sync", "Async prog", "Thread", "Multiproc"], "ans": 1 },
+        { "q": "Generator?", "opt": ["Returns iter", "Class", "Module", "Variable"], "ans": 0 }
+      ]
+    }

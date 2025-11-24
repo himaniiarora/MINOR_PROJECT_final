@@ -1,0 +1,98 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is Django?",
+      "answer": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "How do you create a new Django project?",
+      "answer": "Use the command `django-admin startproject projectname` to create a new Django project."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What is an app in Django?",
+      "answer": "An app is a self-contained module that does a specific job within a Django project (e.g., blog, polls)."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What is the role of urls.py?",
+      "answer": "urls.py maps URL patterns to view functions or classes."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "How do you run the Django development server?",
+      "answer": "Run `python manage.py runserver` to start the development server."
+    }
+  ],
+  "medium": [
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "What are Django models?",
+      "answer": "Models are Python classes that define the structure of your database tables."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "What is a Django migration?",
+      "answer": "Migrations are Django's way of propagating changes made to models into the database schema."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "What is a Django view?",
+      "answer": "A view is a function or class that receives a web request and returns a web response."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "What are Django templates?",
+      "answer": "Templates are HTML files with placeholders for dynamic content rendered by views."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "How do you use Django admin?",
+      "answer": "Register models in admin.py to manage them via Django's built-in admin interface."
+    }
+  ],
+  "hard": [
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "What is Django ORM?",
+      "answer": "Django ORM (Object-Relational Mapping) lets you interact with the database using Python classes and methods."
+    },
+    {
+      "id": 12,
+      "difficulty": "hard",
+      "question": "What are middleware components?",
+      "answer": "Middleware is a framework of hooks into Django's request/response processing to modify requests and responses globally."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "What are signals in Django?",
+      "answer": "Signals allow decoupled applications to get notified when certain actions occur elsewhere in the framework."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "question": "How do you optimize database queries in Django?",
+      "answer": "Use QuerySet methods like select_related, prefetch_related, and proper indexing to reduce queries and improve performance."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "question": "What is the difference between form.is_valid() and form.cleaned_data()?",
+      "answer": "form.is_valid() runs validation and returns True/False; form.cleaned_data contains the validated and normalized data after is_valid() returns True."
+    }
+  ]
+}

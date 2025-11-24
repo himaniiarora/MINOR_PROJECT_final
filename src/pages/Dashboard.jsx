@@ -1,7 +1,5 @@
 import React from "react";
-import StatsCard from "../components/StatsCard";
-import PerformanceChart from "../components/PerformanceChart";
-import Forest from "../components/Forest";
+
 
 // Example data for charts
 const dailyData = {

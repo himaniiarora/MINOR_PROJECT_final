@@ -1,0 +1,23 @@
+{
+      "easy": [
+        { "q": "Declare class?", "opt": ["class C {}", "Class C", "CLASS C", "class: C"], "ans": 0 },
+        { "q": "Output operator?", "opt": ["<<", ">>", "<", ">"], "ans": 0 },
+        { "q": "C++ extension?", "opt": [".c", ".cpp", ".c++", ".cp"], "ans": 1 },
+        { "q": "Encapsulation?", "opt": ["Data hiding", "Inherit", "Poly", "Abstract"], "ans": 0 },
+        { "q": "Header for cout?", "opt": ["stdio", "iostream", "string", "stdlib"], "ans": 1 }
+      ],
+      "medium": [
+        { "q": "Virtual function?", "opt": ["Static", "Runtime poly", "Inline", "Friend"], "ans": 1 },
+        { "q": "Constructor?", "opt": ["Destructor", "Special func", "Normal", "Friend"], "ans": 1 },
+        { "q": "new vs malloc?", "opt": ["Same", "new calls ctor", "malloc fast", "new old"], "ans": 1 },
+        { "q": "STL?", "opt": ["Standard Template Lib", "String Temp", "Sys Temp", "Static Temp"], "ans": 0 },
+        { "q": "Operator overload?", "opt": ["Redefine op", "Multi op", "Precedence", "Convert"], "ans": 0 }
+      ],
+      "hard": [
+        { "q": "RAII?", "opt": ["Resource Acq Init", "Random Access", "Runtime Alloc", "Recursive Algo"], "ans": 0 },
+        { "q": "Move semantics?", "opt": ["Copy", "Transfer own", "Delete", "Ref"], "ans": 1 },
+        { "q": "Pure virtual?", "opt": ["virtual f()=0", "virtual f()", "abstract f()", "pure f()"], "ans": 0 },
+        { "q": "Template special?", "opt": ["Generic", "Type specific", "Inherit", "Overload"], "ans": 1 },
+        { "q": "Diamond problem?", "opt": ["Multi inherit", "Mem leak", "Compile err", "Runtime err"], "ans": 0 }
+      ]
+    }

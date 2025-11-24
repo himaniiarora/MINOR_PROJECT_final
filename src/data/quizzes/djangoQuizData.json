@@ -1,0 +1,23 @@
+{
+      "easy": [
+        { "q": "Django is?", "opt": ["Framework", "Database", "Language", "Server"], "ans": 0 },
+        { "q": "Start project?", "opt": ["startproject", "create", "new", "init"], "ans": 0 },
+        { "q": "MVT?", "opt": ["Model View Template", "Model View Table", "Module View", "Model Port"], "ans": 0 },
+        { "q": "URLs file?", "opt": ["views.py", "models.py", "urls.py", "settings.py"], "ans": 2 },
+        { "q": "ORM?", "opt": ["Object Relational Map", "Online Resource", "Object Resource", "Op Request"], "ans": 0 }
+      ],
+      "medium": [
+        { "q": "Middleware?", "opt": ["Request hooks", "DB layer", "Template", "Router"], "ans": 0 },
+        { "q": "Migrations?", "opt": ["Backup", "Schema change", "Deploy", "Test"], "ans": 1 },
+        { "q": "QuerySet?", "opt": ["Query result", "URL", "Template", "Form"], "ans": 0 },
+        { "q": "REST framework?", "opt": ["Test", "API framework", "Database", "Deploy"], "ans": 1 },
+        { "q": "Context processor?", "opt": ["Var provider", "View func", "Model", "Validator"], "ans": 0 }
+      ],
+      "hard": [
+        { "q": "select_related?", "opt": ["Filter", "Join optimize", "Order", "Group"], "ans": 1 },
+        { "q": "get vs filter?", "opt": ["Same", "get one obj", "filter fast", "get list"], "ans": 1 },
+        { "q": "Django signal?", "opt": ["Event notify", "URL", "Template", "Field"], "ans": 0 },
+        { "q": "prefetch_related?", "opt": ["Separate queries", "Join opt", "Cache", "Filter"], "ans": 0 },
+        { "q": "Channels for?", "opt": ["WebSockets", "Database", "Templates", "Forms"], "ans": 0 }
+      ]
+    }

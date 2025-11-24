@@ -1,0 +1,98 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Who developed C++?",
+      "answer": "Bjarne Stroustrup developed C++ in 1979 at Bell Labs."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "What is the use of 'class' in C++?",
+      "answer": "A class is a blueprint for creating objects that encapsulate data and behavior."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What is an object?",
+      "answer": "An object is an instance of a class that represents a real-world entity."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What is the use of cout in C++?",
+      "answer": "cout is used to print output to the console."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What is the difference between C and C++?",
+      "answer": "C++ supports object-oriented programming; C does not."
+    }
+  ],
+  "medium": [
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "What is constructor overloading?",
+      "answer": "It is defining multiple constructors with different parameters in the same class."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "What is operator overloading?",
+      "answer": "It allows redefining the behavior of operators for user-defined types."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows a class to acquire the properties and behavior of another class."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects to behave differently based on their data type or class."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "What is a virtual function?",
+      "answer": "A virtual function is a member function that can be overridden in a derived class."
+    }
+  ],
+  "hard": [
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "What is the difference between deep copy and shallow copy?",
+      "answer": "A shallow copy copies object references; a deep copy copies the actual data, creating separate memory."
+    },
+    {
+      "id": 12,
+      "difficulty": "hard",
+      "question": "What are templates in C++?",
+      "answer": "Templates allow writing generic code for functions and classes."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "What is an abstract class?",
+      "answer": "An abstract class contains at least one pure virtual function and cannot be instantiated."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "question": "What is multiple inheritance?",
+      "answer": "It allows a derived class to inherit from more than one base class."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "question": "What are smart pointers?",
+      "answer": "Smart pointers (like unique_ptr, shared_ptr) automatically manage memory allocation and deallocation."
+    }
+  ]
+}

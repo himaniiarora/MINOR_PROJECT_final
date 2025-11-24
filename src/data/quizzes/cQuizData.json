@@ -1,0 +1,23 @@
+{
+      "easy": [
+        { "q": "Printf is used for?", "opt": ["Input", "Output", "Loop", "Condition"], "ans": 1 },
+        { "q": "Header for printf?", "opt": ["stdlib.h", "stdio.h", "string.h", "math.h"], "ans": 1 },
+        { "q": "Size of int?", "opt": ["2", "4", "8", "1"], "ans": 1 },
+        { "q": "Comment symbol?", "opt": ["//", "/*", "#", "--"], "ans": 0 },
+        { "q": "C file extension?", "opt": [".cpp", ".c", ".h", ".txt"], "ans": 1 }
+      ],
+      "medium": [
+        { "q": "malloc returns?", "opt": ["int*", "void*", "char*", "Nothing"], "ans": 1 },
+        { "q": "Address operator?", "opt": ["*", "&", "%", "@"], "ans": 1 },
+        { "q": "sizeof char?", "opt": ["0", "1", "2", "4"], "ans": 1 },
+        { "q": "Memory allocation?", "opt": ["alloc", "malloc", "new", "memory"], "ans": 1 },
+        { "q": "Pointer type?", "opt": ["int*", "void*", "Both", "None"], "ans": 2 }
+      ],
+      "hard": [
+        { "q": "Segmentation fault?", "opt": ["Syntax", "Memory violation", "Compile", "Logic"], "ans": 1 },
+        { "q": "malloc vs calloc?", "opt": ["Same", "calloc zeros", "malloc fast", "calloc old"], "ans": 1 },
+        { "q": "Function pointer?", "opt": ["Ptr to func", "Ret ptr", "Arr func", "NULL"], "ans": 0 },
+        { "q": "volatile for?", "opt": ["Const", "No optimize", "Static", "Global"], "ans": 1 },
+        { "q": "Union in C?", "opt": ["Same mem", "Diff mem", "Array", "Pointer"], "ans": 0 }
+      ]
+    }
