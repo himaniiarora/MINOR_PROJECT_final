@@ -93,7 +93,6 @@ Start the development server
 npm run dev
 
 Deployment link : https://levelupminorpro.netlify.app/
-Add daily challenges
 
 🙏 Acknowledgements
 
