@@ -1,136 +1,101 @@
-# 🎓 Interactive Learning Platform
+🌟 Interactive Learning Platform
 
-A modern, gamified web application built with React for creating flashcards, taking quizzes, and tracking learning progress.
+A fun, modern and gamified way to learn programming with Flashcards, Quizzes and Growth Tracking.
 
-## 🌟 Features
+✨ Overview
 
-- **Flashcard Management**: Create, edit, and delete flashcards organized by subjects
-- **Interactive Quizzes**: Test knowledge with dynamic quizzes and instant feedback
-- **Gamification**: Earn XP, level up, maintain study streaks, and unlock badges
-- **Forest Garden**: Visual 30-day streak tracker with growing trees
-- **Analytics Dashboard**: Track progress with interactive charts and statistics
-- **Modern UI**: Smooth animations, responsive design, gradient themes
+The Interactive Learning Platform is designed for students who want to learn programming in an engaging, game-like style.
+It includes flashcards, quizzes, and a GrowZone that visualises your progress with streaks, activity heatmaps and a virtual grow-forest.
 
-## 🛠️ Tech Stack
+Built with a modern UI and smooth animations, the platform makes learning simple, clean, and enjoyable.
 
-- **Frontend**: React.js (Hooks, Context API)
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Charts**: Recharts
-- **Icons**: Lucide React
-- **Storage**: LocalStorage
+🚀 Features
+🔹 User Authentication
 
-## 📦 Installation
+Secure login & signup with Firebase Authentication
 
-<<<<<<< HEAD
-\`\`\`bash
-# Clone repository
-git clone <your-repo-url>
-cd interactive-learning-platform
+Smooth navigation after login
 
-# Install dependencies
+🔹 Landing Page
+
+Quick access to Flashcards, Quiz and GrowZone
+
+Minimal & modern UI
+
+🔹 Flashcards Module
+
+Multiple programming languages
+
+Difficulty modes (Easy, Medium, Hard)
+
+Swipe/flip-style interactive UI
+
+🔹 Quiz Section
+
+Select programming language
+
+Choose quiz mode
+
+Shows final score, time taken & retry/back options
+
+Stores previous results
+
+🔹 GrowZone (Progress Tracking)
+
+Weekly & monthly activity insight
+
+Streak tracker
+
+Activity heatmap
+
+Grow forest animation
+
+Buttons to jump to Flashcards & Quiz
+
+🔹 Responsive & Animated UI
+
+Neon borders
+
+Gradient themes
+
+Framer Motion animations
+
+Beautiful layout using Tailwind CSS
+
+Fully responsive for all screens
+
+🛠️ Tech Stack
+Frontend : React.js, Tailwind CSS, React Router, Framer Motion, Recharts / Chart.js
+
+Backend : Firebase Authentication
+
+Database : Firebase
+
+🧰 Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/himaniiarora/MINOR_PROJECT_final
+
+
+Go to project folder
+
+cd LevelUp
+
+
+Install dependencies
+
 npm install
 
-# Start development server
-npm start
-\`\`\`
 
-## 🚀 Usage
+Start the development server
 
-1. **Create Flashcards**: Navigate to Flashcards page and create cards by subject
-2. **Take Quizzes**: Select a subject and test your knowledge
-3. **Track Progress**: View analytics, streaks, and earned badges
-4. **Grow Your Forest**: Study daily to grow trees in your learning forest
+npm run dev
 
-## 🎯 Gamification System
+Deployment link : https://levelupminorpro.netlify.app/
+Add daily challenges
 
-- **XP System**: Earn 10 XP per correct answer + streak bonuses
-- **Levels**: Level up every 100 XP
-- **Streaks**: Study daily to maintain and grow your streak
-- **Badges**: Unlock 6 different achievement badges
-- **Forest Garden**: Visual representation of 30-day learning journey
+🙏 Acknowledgements
 
-## 📊 Project Structure
-
-\`\`\`
-src/
-├── App.jsx              # Main application component
-├── index.js             # Entry point
-├── index.css            # Global styles
-└── components/          # (All components integrated in App.jsx)
-    ├── Flashcards       # Flashcard CRUD operations
-    ├── Quiz             # Quiz functionality
-    ├── Dashboard        # Analytics & charts
-    ├── Achievements     # Badges & forest garden
-    └── Gamification     # XP, streaks, levels
-\`\`\`
-
-## 🎨 Key Components
-
-- **AppProvider**: Global state management with Context API
-- **FlashcardForm**: Modal for creating/editing flashcards
-- **QuizPage**: Three-state quiz flow (setup → active → results)
-- **ForestGarden**: 30-day tree growth visualization
-- **DashboardPage**: Charts showing activity and performance
-- **XPBar & StreakCounter**: Gamification UI elements
-
-## 📝 Future Enhancements
-
-- [ ] Firebase integration for cloud sync
-- [ ] User authentication
-- [ ] Collaborative flashcard sharing
-- [ ] Spaced repetition algorithm
-- [ ] Mobile app version
-- [ ] Export/import flashcard sets
-
-## 👨‍💻 Developer
-
-**Your Name**  
-BCA 5th Semester Project (2025-2026)  
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
-
-## 📄 License
-
-MIT License - Feel free to use this project for learning purposes
-\`\`\`
-
-## 🎨 **Design Enhancements Already Included:**
-
-1. **Gradient Backgrounds** - Purple/Pink/Blue theme
-2. **Smooth Animations** - Framer Motion for all interactions
-3. **Interactive Cards** - Flip animation on flashcards
-4. **Progress Indicators** - Visual XP bar, quiz progress
-5. **Responsive Design** - Mobile-friendly layouts
-6. **Icon Integration** - Lucide React icons throughout
-7. **Chart Visualizations** - Bar, Line, and Pie charts
-8. **Gamification UI** - Badges, streaks, forest garden
-
-## 📋 **Additional Tips for Presentation:**
-
-### **Demo Flow:**
-1. Start on Home page → Show overview
-2. Create flashcards → Demonstrate CRUD
-3. Take a quiz → Show scoring & XP gain
-4. View Dashboard → Explain analytics
-5. Show Achievements → Forest garden & badges
-
-### **Highlight These Points:**
-- ✅ Clean, modular code structure
-- ✅ Reusable components
-- ✅ Custom hooks for localStorage
-- ✅ Context API for state management
-- ✅ Responsive and animated UI
-- ✅ Complete CRUD operations
-- ✅ Gamification for user engagement
-
-### **For Your Project Report:**
-- Include screenshots of all pages
-- Explain the folder structure
-- Document the component hierarchy
-- Add flowcharts for quiz logic
-- Include ER diagrams if adding backend later
-=======
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-Deployment link : 
-
+This project was created as part of an academic minor project, inspired by modern learning apps like Duolingo and Quizlet.
+Special thanks to everyone who supported and guided during development.
